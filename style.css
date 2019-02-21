@@ -37,10 +37,10 @@ body {
   box-sizing: border-box;
 }
 
-.top > div {
+.topdiv {
   margin: 0 1px;
   width: 200px;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   /* border: 1px solid rgb(0, 255, 85); */
   box-sizing: border-box;
   text-align: center;
@@ -50,10 +50,24 @@ body {
   align-items: stretch;
 }
 
-.top > div > img {
+.topdiv > img {
   /* height: 100%; */
   margin: 10px;
   box-sizing: border-box;
+}
+
+.topdiv1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.topdiv > div {
+  display: flex;
+  box-sizing: border-box;
+  width: 50%;
 }
 
 .middle {
