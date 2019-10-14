@@ -59,15 +59,18 @@ body {
 .topdiv1 {
   flex-direction: column;
   justify-content: flex-start;
-  align-content: flex-start;
+  align-content: stretch;
   flex-wrap: wrap;
   align-items: stretch;
 }
 
-.topdiv > div {
+.topdiv1 > div {
   display: flex;
   box-sizing: border-box;
-  width: 50%;
+  align-self: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 .middle {

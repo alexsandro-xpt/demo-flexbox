@@ -13,11 +13,12 @@
         <div v-for="item in topContent" class="topdiv" :class="item.class" :style="{ 'background-color': item.bgColor, 'width': item.width }">
           <!-- <img :src="item.src" /> -->
           <!-- <div v-if="item.hasElement" style="flex-basis: 100%;background: greenyellow;">1</div> -->
-          <div v-if="item.hasElement" style="flex-grow: 1;background: greenyellow;">1</div>
-          <div v-if="item.hasElement" style="flex-grow: 1;background: rebeccapurple;">2</div>
-          <div v-if="item.hasElement" style="flex-grow: 1;background: black;">3</div>
-          <div v-if="item.hasElement" style="flex-grow: 1;background: red;">4</div>
-          <div v-if="item.hasElement" style="flex-grow: 1;background: blue;">4</div>
+          <div v-if="item.hasElement" style="background: greenyellow;">1</div>
+          <div v-if="item.hasElement" style="background: rebeccapurple;">2</div>
+          <div v-if="item.hasElement" style="background: black;">3</div>
+          <div v-if="item.hasElement" style="background: red;">4</div>
+          <div v-if="item.hasElement" style="background: blue;">5</div>
+
         </div>
       </div>
       <div class="middle row">
